@@ -1,0 +1,146 @@
+SVR - 20 words only
+2013-05-07 00:40:07.437000
+229907
+20
+229907
+2013-05-07 00:41:16.576000
+begin to do regression, vote not log scaled, SVR with linear kernel, len= 229907
+5-fold CV No. 1
+rmsle= 0.639957061189
+5-fold CV No. 2
+rmsle= 0.64313888509
+5-fold CV No. 3
+rmsle= 0.642559293705
+5-fold CV No. 4
+rmsle= 0.63862340343
+5-fold CV No. 5
+rmsle= 0.640172456258
+finish doing regression
+5-fold CV avg rmsle= 0.640890219934
+2013-05-07 05:54:29.133000
+
+SVR - 20 words only, logged vote
+229907
+20
+229907
+2013-05-07 02:08:26.859000
+begin to do regression, vote log scaled, SVR with linear kernel, len= 229907
+5-fold CV No. 1
+rmsle= 0.64011928241
+5-fold CV No. 2
+rmsle= 0.643354070789
+5-fold CV No. 3
+rmsle= 0.64273944982
+5-fold CV No. 4
+rmsle= 0.638805207578
+5-fold CV No. 5
+rmsle= 0.640301652162
+finish doing regression
+5-fold CV avg rmsle= 0.641063932552
+2013-05-07 08:00:34.320000
+
+SVR - all 30 features
+2013-05-07 12:39:34.605000
+229907
+30
+229907
+2013-05-07 12:40:48.845000
+begin to do regression, vote not log scaled, SVR with linear kernel, len= 229907
+5-fold CV No. 1
+rmsle= 0.418415667976
+5-fold CV No. 2
+rmsle= 0.41929772032
+5-fold CV No. 3
+rmsle= 0.414907151953
+5-fold CV No. 4
+rmsle= 0.418669839369
+5-fold CV No. 5
+rmsle= 0.418793287118
+finish doing regression
+5-fold CV avg rmsle= 0.418016733347
+2013-05-07 18:46:43.475000
+
+SVR - all 30 features, logged vote
+2013-05-07 12:41:07.486000
+229907
+30
+229907
+2013-05-07 12:42:30.035000
+begin to do regression, vote log scaled, SVR with linear kernel, len= 229907
+5-fold CV No. 1
+rmsle= 0.886895347231
+5-fold CV No. 2
+rmsle= 0.854240428672
+5-fold CV No. 3
+rmsle= 0.835966136575
+5-fold CV No. 4
+rmsle= 0.817543996964
+5-fold CV No. 5
+rmsle= 0.855692511654
+finish doing regression
+5-fold CV avg rmsle= 0.850067684219
+2013-05-07 16:06:51.454000
+
+
+RF - all 30 features
+2013-05-07 13:01:35.636000
+229907
+30
+229907
+2013-05-07 13:03:13.598000
+begin to do regression, vote not log scaled, RF with 32 trees, len= 229907
+5-fold CV No. 1
+rmsle= 0.402528786335
+5-fold CV No. 2
+rmsle= 0.404170799918
+5-fold CV No. 3
+rmsle= 0.401672027912
+5-fold CV No. 4
+rmsle= 0.402661864338
+5-fold CV No. 5
+rmsle= 0.403270025611
+finish doing regression
+5-fold CV avg rmsle= 0.402860700823
+2013-05-07 13:24:57.231000
+
+RF - all 30 features, logged vote
+229907
+30
+229907
+2013-05-07 13:03:19
+begin to do regression, vote log scaled, RF with 32 trees, len= 229907
+5-fold CV No. 1
+rmsle= 0.444413291794
+5-fold CV No. 2
+rmsle= 0.446410857657
+5-fold CV No. 3
+rmsle= 0.442302552875
+5-fold CV No. 4
+rmsle= 0.44557299674
+5-fold CV No. 5
+rmsle= 0.446834167415
+finish doing regression
+5-fold CV avg rmsle= 0.445106773296
+2013-05-07 13:25:57.140000
+
+RF - 128 tree, 20 max features
+2013-05-07 18:45:30.498000
+229907
+30
+229907
+2013-05-07 18:46:53.286000
+begin to do regression, vote not log scaled, RF with 128 trees max 20 features,
+len= 229907
+5-fold CV No. 1
+rmsle= 0.396463062131
+5-fold CV No. 2
+rmsle= 0.398211139229
+5-fold CV No. 3
+rmsle= 0.396662095584
+5-fold CV No. 4
+rmsle= 0.396995392087
+5-fold CV No. 5
+rmsle= 0.397929268747
+finish doing regression
+5-fold CV avg rmsle= 0.397252191556
+2013-05-07 19:35:17.498000

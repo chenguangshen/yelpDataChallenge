@@ -1,0 +1,794 @@
+try num of tree= 8
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.440739018492
+5-fold CV No. 2
+rmsle= 0.440379749677
+5-fold CV No. 3
+rmsle= 0.437329091997
+5-fold CV No. 4
+rmsle= 0.437120211137
+5-fold CV avg rmsle= 0.351113614261
+try num of tree= 8
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.423698043139
+5-fold CV No. 2
+rmsle= 0.42828978546
+5-fold CV No. 3
+rmsle= 0.427122494927
+5-fold CV No. 4
+rmsle= 0.426403839515
+5-fold CV avg rmsle= 0.341102832608
+try num of tree= 8
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.419871731811
+5-fold CV No. 2
+rmsle= 0.421190205514
+5-fold CV No. 3
+rmsle= 0.418714875574
+5-fold CV No. 4
+rmsle= 0.420076469287
+5-fold CV avg rmsle= 0.335970656437
+try num of tree= 8
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.418453421613
+5-fold CV No. 2
+rmsle= 0.418064894692
+5-fold CV No. 3
+rmsle= 0.418007114965
+5-fold CV No. 4
+rmsle= 0.418482475121
+5-fold CV avg rmsle= 0.334601581278
+try num of tree= 8
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.416960768648
+5-fold CV No. 2
+rmsle= 0.418831717624
+5-fold CV No. 3
+rmsle= 0.416654167251
+5-fold CV No. 4
+rmsle= 0.417426120182
+5-fold CV avg rmsle= 0.333974554741
+try num of tree= 8
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.416598074478
+5-fold CV No. 2
+rmsle= 0.419707939176
+5-fold CV No. 3
+rmsle= 0.415863661214
+5-fold CV No. 4
+rmsle= 0.416851867841
+5-fold CV avg rmsle= 0.333804308542
+try num of tree= 8
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.419352697843
+5-fold CV No. 2
+rmsle= 0.420916386778
+5-fold CV No. 3
+rmsle= 0.416552893443
+5-fold CV No. 4
+rmsle= 0.41791945321
+5-fold CV avg rmsle= 0.334948286255
+try num of tree= 8
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.418770478293
+5-fold CV No. 2
+rmsle= 0.420725459034
+5-fold CV No. 3
+rmsle= 0.418435072496
+5-fold CV No. 4
+rmsle= 0.419173473145
+5-fold CV avg rmsle= 0.335420896594
+try num of tree= 8
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.420305514001
+5-fold CV No. 2
+rmsle= 0.422367403496
+5-fold CV No. 3
+rmsle= 0.418492167622
+5-fold CV No. 4
+rmsle= 0.420212357152
+5-fold CV avg rmsle= 0.336275488454
+try num of tree= 16
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.425756734814
+5-fold CV No. 2
+rmsle= 0.424856326261
+5-fold CV No. 3
+rmsle= 0.423475976023
+5-fold CV No. 4
+rmsle= 0.425073289926
+5-fold CV avg rmsle= 0.339832465405
+try num of tree= 16
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.415013233624
+5-fold CV No. 2
+rmsle= 0.414524586143
+5-fold CV No. 3
+rmsle= 0.412786053378
+5-fold CV No. 4
+rmsle= 0.416515773572
+5-fold CV avg rmsle= 0.331767929344
+try num of tree= 16
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.407514319797
+5-fold CV No. 2
+rmsle= 0.407971930186
+5-fold CV No. 3
+rmsle= 0.405820305761
+5-fold CV No. 4
+rmsle= 0.407132897731
+5-fold CV avg rmsle= 0.325687890695
+try num of tree= 16
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.406561133999
+5-fold CV No. 2
+rmsle= 0.407322943033
+5-fold CV No. 3
+rmsle= 0.40545064785
+5-fold CV No. 4
+rmsle= 0.406349711893
+5-fold CV avg rmsle= 0.325136887355
+try num of tree= 16
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.406284727819
+5-fold CV No. 2
+rmsle= 0.406308641637
+5-fold CV No. 3
+rmsle= 0.405101959184
+5-fold CV No. 4
+rmsle= 0.405308755216
+5-fold CV avg rmsle= 0.324600816771
+try num of tree= 16
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.406049703549
+5-fold CV No. 2
+rmsle= 0.406708786798
+5-fold CV No. 3
+rmsle= 0.405229730154
+5-fold CV No. 4
+rmsle= 0.405618381822
+5-fold CV avg rmsle= 0.324721320465
+try num of tree= 16
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.406706430727
+5-fold CV No. 2
+rmsle= 0.407997949196
+5-fold CV No. 3
+rmsle= 0.406341598397
+5-fold CV No. 4
+rmsle= 0.407177288683
+5-fold CV avg rmsle= 0.325644653401
+try num of tree= 16
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.40744662068
+5-fold CV No. 2
+rmsle= 0.408569243399
+5-fold CV No. 3
+rmsle= 0.406288818968
+5-fold CV No. 4
+rmsle= 0.407682033243
+5-fold CV avg rmsle= 0.325997343258
+try num of tree= 16
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.409071369454
+5-fold CV No. 2
+rmsle= 0.410923547712
+5-fold CV No. 3
+rmsle= 0.408768917034
+5-fold CV No. 4
+rmsle= 0.409980922582
+5-fold CV avg rmsle= 0.327748951356
+try num of tree= 32
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.416798385091
+5-fold CV No. 2
+rmsle= 0.419661259435
+5-fold CV No. 3
+rmsle= 0.417637135858
+5-fold CV No. 4
+rmsle= 0.416421954357
+5-fold CV avg rmsle= 0.334103746948
+try num of tree= 32
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.407756939212
+5-fold CV No. 2
+rmsle= 0.407193814534
+5-fold CV No. 3
+rmsle= 0.406470360037
+5-fold CV No. 4
+rmsle= 0.406944010328
+5-fold CV avg rmsle= 0.325673024822
+try num of tree= 32
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.401063151144
+5-fold CV No. 2
+rmsle= 0.401996995972
+5-fold CV No. 3
+rmsle= 0.40013016019
+5-fold CV No. 4
+rmsle= 0.401019709995
+5-fold CV avg rmsle= 0.32084200346
+try num of tree= 32
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.399724152851
+5-fold CV No. 2
+rmsle= 0.401108185053
+5-fold CV No. 3
+rmsle= 0.398918929446
+5-fold CV No. 4
+rmsle= 0.3992607767
+5-fold CV avg rmsle= 0.31980240881
+try num of tree= 32
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.399591427704
+5-fold CV No. 2
+rmsle= 0.400517564269
+5-fold CV No. 3
+rmsle= 0.398742384811
+5-fold CV No. 4
+rmsle= 0.399343762832
+5-fold CV avg rmsle= 0.319639027923
+try num of tree= 32
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.40083430486
+5-fold CV No. 2
+rmsle= 0.401561802748
+5-fold CV No. 3
+rmsle= 0.398602512064
+5-fold CV No. 4
+rmsle= 0.400260972879
+5-fold CV avg rmsle= 0.32025191851
+try num of tree= 32
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.401096215269
+5-fold CV No. 2
+rmsle= 0.402652864145
+5-fold CV No. 3
+rmsle= 0.400321898021
+5-fold CV No. 4
+rmsle= 0.400571177824
+5-fold CV avg rmsle= 0.320928431052
+try num of tree= 32
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.402216131617
+5-fold CV No. 2
+rmsle= 0.40353961463
+5-fold CV No. 3
+rmsle= 0.400619945726
+5-fold CV No. 4
+rmsle= 0.402290973348
+5-fold CV avg rmsle= 0.321733333064
+try num of tree= 32
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.402750392844
+5-fold CV No. 2
+rmsle= 0.404899202629
+5-fold CV No. 3
+rmsle= 0.401895687568
+5-fold CV No. 4
+rmsle= 0.404034904708
+5-fold CV avg rmsle= 0.32271603755
+try num of tree= 64
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.412518084347
+5-fold CV No. 2
+rmsle= 0.41484543181
+5-fold CV No. 3
+rmsle= 0.413381554752
+5-fold CV No. 4
+rmsle= 0.41345035997
+5-fold CV avg rmsle= 0.330839086176
+try num of tree= 64
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.403816132816
+5-fold CV No. 2
+rmsle= 0.404713910423
+5-fold CV No. 3
+rmsle= 0.403397652385
+5-fold CV No. 4
+rmsle= 0.403589775278
+5-fold CV avg rmsle= 0.323103494181
+try num of tree= 64
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.397609516282
+5-fold CV No. 2
+rmsle= 0.398203616522
+5-fold CV No. 3
+rmsle= 0.397485419612
+5-fold CV No. 4
+rmsle= 0.397964203465
+5-fold CV avg rmsle= 0.318252551176
+try num of tree= 64
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.396587439581
+5-fold CV No. 2
+rmsle= 0.397758287708
+5-fold CV No. 3
+rmsle= 0.395301905247
+5-fold CV No. 4
+rmsle= 0.396591855602
+5-fold CV avg rmsle= 0.317247897628
+try num of tree= 64
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.396430054702
+5-fold CV No. 2
+rmsle= 0.397225887703
+5-fold CV No. 3
+rmsle= 0.395749996106
+5-fold CV No. 4
+rmsle= 0.396732831687
+5-fold CV avg rmsle= 0.31722775404
+try num of tree= 64
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.396971451082
+5-fold CV No. 2
+rmsle= 0.398351204895
+5-fold CV No. 3
+rmsle= 0.396256440645
+5-fold CV No. 4
+rmsle= 0.396968206226
+5-fold CV avg rmsle= 0.31770946057
+try num of tree= 64
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.398350336025
+5-fold CV No. 2
+rmsle= 0.399902231687
+5-fold CV No. 3
+rmsle= 0.397231038303
+5-fold CV No. 4
+rmsle= 0.398270559548
+5-fold CV avg rmsle= 0.318750833113
+try num of tree= 64
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.398792854626
+5-fold CV No. 2
+rmsle= 0.400957780032
+5-fold CV No. 3
+rmsle= 0.397981496941
+5-fold CV No. 4
+rmsle= 0.399766019459
+5-fold CV avg rmsle= 0.319499630212
+try num of tree= 64
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.399942538562
+5-fold CV No. 2
+rmsle= 0.40210067899
+5-fold CV No. 3
+rmsle= 0.399220806797
+5-fold CV No. 4
+rmsle= 0.400559273858
+5-fold CV avg rmsle= 0.320364659641
+try num of tree= 128
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.410077895089
+5-fold CV No. 2
+rmsle= 0.413233245654
+5-fold CV No. 3
+rmsle= 0.411693244075
+5-fold CV No. 4
+rmsle= 0.410465803332
+5-fold CV avg rmsle= 0.32909403763
+try num of tree= 128
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.401520484489
+5-fold CV No. 2
+rmsle= 0.402760580041
+5-fold CV No. 3
+rmsle= 0.401174991677
+5-fold CV No. 4
+rmsle= 0.401404629522
+5-fold CV avg rmsle= 0.321372137146
+try num of tree= 128
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.396329062675
+5-fold CV No. 2
+rmsle= 0.397381128986
+5-fold CV No. 3
+rmsle= 0.395133802526
+5-fold CV No. 4
+rmsle= 0.395747834181
+5-fold CV avg rmsle= 0.316918365674
+try num of tree= 128
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.394966167816
+5-fold CV No. 2
+rmsle= 0.395948835525
+5-fold CV No. 3
+rmsle= 0.394110930561
+5-fold CV No. 4
+rmsle= 0.395094292508
+5-fold CV avg rmsle= 0.316024045282
+try num of tree= 128
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.394851539756
+5-fold CV No. 2
+rmsle= 0.396388159964
+5-fold CV No. 3
+rmsle= 0.394014146336
+5-fold CV No. 4
+rmsle= 0.394893254262
+5-fold CV avg rmsle= 0.316029420064
+try num of tree= 128
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.395746517222
+5-fold CV No. 2
+rmsle= 0.397074617475
+5-fold CV No. 3
+rmsle= 0.394476835941
+5-fold CV No. 4
+rmsle= 0.395906987834
+5-fold CV avg rmsle= 0.316640991694
+try num of tree= 128
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.39681070535
+5-fold CV No. 2
+rmsle= 0.398200915641
+5-fold CV No. 3
+rmsle= 0.395580980792
+5-fold CV No. 4
+rmsle= 0.396978249261
+5-fold CV avg rmsle= 0.317514170209
+try num of tree= 128
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.397435414788
+5-fold CV No. 2
+rmsle= 0.39897294783
+5-fold CV No. 3
+rmsle= 0.396486439961
+5-fold CV No. 4
+rmsle= 0.397919014596
+5-fold CV avg rmsle= 0.318162763435
+try num of tree= 128
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.39899776559
+5-fold CV No. 2
+rmsle= 0.400923155687
+5-fold CV No. 3
+rmsle= 0.397720108617
+5-fold CV No. 4
+rmsle= 0.39942594791
+5-fold CV avg rmsle= 0.319413395561
+try num of tree= 256
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.409527812519
+5-fold CV No. 2
+rmsle= 0.411736466635
+5-fold CV No. 3
+rmsle= 0.41028388565
+5-fold CV No. 4
+rmsle= 0.410288133888
+5-fold CV avg rmsle= 0.328367259738
+try num of tree= 256
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.40092701744
+5-fold CV No. 2
+rmsle= 0.402351974845
+5-fold CV No. 3
+rmsle= 0.400131646012
+5-fold CV No. 4
+rmsle= 0.400958992491
+5-fold CV avg rmsle= 0.320873926157
+try num of tree= 256
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.395203669032
+5-fold CV No. 2
+rmsle= 0.396283836965
+5-fold CV No. 3
+rmsle= 0.394123151746
+5-fold CV No. 4
+rmsle= 0.394879273111
+5-fold CV avg rmsle= 0.316097986171
+try num of tree= 256
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.394014804504
+5-fold CV No. 2
+rmsle= 0.395271695486
+5-fold CV No. 3
+rmsle= 0.393276657512
+5-fold CV No. 4
+rmsle= 0.394345982329
+5-fold CV avg rmsle= 0.315381827966
+try num of tree= 256
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.394237233016
+5-fold CV No. 2
+rmsle= 0.395376496949
+5-fold CV No. 3
+rmsle= 0.393357458998
+5-fold CV No. 4
+rmsle= 0.393909747892
+5-fold CV avg rmsle= 0.315376187371
+try num of tree= 256
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.395043567297
+5-fold CV No. 2
+rmsle= 0.396402299871
+5-fold CV No. 3
+rmsle= 0.394324831362
+5-fold CV No. 4
+rmsle= 0.395341538453
+5-fold CV avg rmsle= 0.316222447396
+try num of tree= 256
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.396159372862
+5-fold CV No. 2
+rmsle= 0.3975572629
+5-fold CV No. 3
+rmsle= 0.395243245119
+5-fold CV No. 4
+rmsle= 0.396324798256
+5-fold CV avg rmsle= 0.317056935827
+try num of tree= 256
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.396817776929
+5-fold CV No. 2
+rmsle= 0.398356742557
+5-fold CV No. 3
+rmsle= 0.395739313438
+5-fold CV No. 4
+rmsle= 0.397101797617
+5-fold CV avg rmsle= 0.317603126108
+try num of tree= 256
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.398087751344
+5-fold CV No. 2
+rmsle= 0.400069887562
+5-fold CV No. 3
+rmsle= 0.396999124463
+5-fold CV No. 4
+rmsle= 0.398728481915
+5-fold CV avg rmsle= 0.318777049057
+try num of tree= 512
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.409370001934
+5-fold CV No. 2
+rmsle= 0.410706502967
+5-fold CV No. 3
+rmsle= 0.409672015689
+5-fold CV No. 4
+rmsle= 0.410082196345
+5-fold CV avg rmsle= 0.327966143387
+try num of tree= 512
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.400446847372
+5-fold CV No. 2
+rmsle= 0.401881034345
+5-fold CV No. 3
+rmsle= 0.399576331431
+5-fold CV No. 4
+rmsle= 0.400050289317
+5-fold CV avg rmsle= 0.320390900493
+try num of tree= 512
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.394978712553
+5-fold CV No. 2
+rmsle= 0.395856372453
+5-fold CV No. 3
+rmsle= 0.393835133265
+5-fold CV No. 4
+rmsle= 0.394662856465
+5-fold CV avg rmsle= 0.315866614947
+try num of tree= 512
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.393775112442
+5-fold CV No. 2
+rmsle= 0.394953130364
+5-fold CV No. 3
+rmsle= 0.392964814306
+5-fold CV No. 4
+rmsle= 0.393717209408
+5-fold CV avg rmsle= 0.315082053304
+try num of tree= 512
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.393925693671
+5-fold CV No. 2
+rmsle= 0.394979258908
+5-fold CV No. 3
+rmsle= 0.392874964096
+5-fold CV No. 4
+rmsle= 0.393890213467
+5-fold CV avg rmsle= 0.315134026028
+try num of tree= 512
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.394682491677
+5-fold CV No. 2
+rmsle= 0.395960574262
+5-fold CV No. 3
+rmsle= 0.393714084261
+5-fold CV No. 4
+rmsle= 0.394956044889
+5-fold CV avg rmsle= 0.315862639018
+try num of tree= 512
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.395589426426
+5-fold CV No. 2
+rmsle= 0.397269857463
+5-fold CV No. 3
+rmsle= 0.394681754715
+5-fold CV No. 4
+rmsle= 0.395980255846
+5-fold CV avg rmsle= 0.31670425889
+try num of tree= 512
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.396236358535
+5-fold CV No. 2
+rmsle= 0.398127450982
+5-fold CV No. 3
+rmsle= 0.395334333217
+5-fold CV No. 4
+rmsle= 0.396792165725
+5-fold CV avg rmsle= 0.317298061692
+try num of tree= 512
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.397639021755
+5-fold CV No. 2
+rmsle= 0.399680807258
+5-fold CV No. 3
+rmsle= 0.396561330933
+5-fold CV No. 4
+rmsle= 0.398270765766
+5-fold CV avg rmsle= 0.318430385142
+try num of tree= 1024
+try max number of feature= 1
+5-fold CV No. 1
+rmsle= 0.409192983684
+5-fold CV No. 2
+rmsle= 0.411401689982
+5-fold CV No. 3
+rmsle= 0.409425693402
+5-fold CV No. 4
+rmsle= 0.409597697078
+5-fold CV avg rmsle= 0.327923612829
+try num of tree= 1024
+try max number of feature= 2
+5-fold CV No. 1
+rmsle= 0.400016065376
+5-fold CV No. 2
+rmsle= 0.401104383614
+5-fold CV No. 3
+rmsle= 0.399312738657
+5-fold CV No. 4
+rmsle= 0.400040551449
+5-fold CV avg rmsle= 0.320094747819
+try num of tree= 1024
+try max number of feature= 4
+5-fold CV No. 1
+rmsle= 0.394680797018
+5-fold CV No. 2
+rmsle= 0.395857073352
+5-fold CV No. 3
+rmsle= 0.393641633305
+5-fold CV No. 4
+rmsle= 0.394586114184
+5-fold CV avg rmsle= 0.315753123572
+try num of tree= 1024
+try max number of feature= 6
+5-fold CV No. 1
+rmsle= 0.393580429416
+5-fold CV No. 2
+rmsle= 0.394737008639
+5-fold CV No. 3
+rmsle= 0.392600732753
+5-fold CV No. 4
+rmsle= 0.393550856409
+5-fold CV avg rmsle= 0.314893805443
+try num of tree= 1024
+try max number of feature= 8
+5-fold CV No. 1
+rmsle= 0.393603952387
+5-fold CV No. 2
+rmsle= 0.394787451631
+5-fold CV No. 3
+rmsle= 0.392584972233
+5-fold CV No. 4
+rmsle= 0.39356979854
+5-fold CV avg rmsle= 0.314909234958
+try num of tree= 1024
+try max number of feature= 12
+5-fold CV No. 1
+rmsle= 0.394535277831
+5-fold CV No. 2
+rmsle= 0.39585602318
+5-fold CV No. 3
+rmsle= 0.393683161419
+5-fold CV No. 4
+rmsle= 0.394733213651
+5-fold CV avg rmsle= 0.315761535216
+try num of tree= 1024
+try max number of feature= 16
+5-fold CV No. 1
+rmsle= 0.395449310524
+5-fold CV No. 2
+rmsle= 0.396930117014
+5-fold CV No. 3
+rmsle= 0.394528609367
+5-fold CV No. 4
+rmsle= 0.395696654803
+5-fold CV avg rmsle= 0.316520938342
+try num of tree= 1024
+try max number of feature= 20
+5-fold CV No. 1
+rmsle= 0.396180597332
+5-fold CV No. 2
+rmsle= 0.397915292166
+5-fold CV No. 3
+rmsle= 0.39516147318
+5-fold CV No. 4
+rmsle= 0.396499706119
+5-fold CV avg rmsle= 0.317151413759
+try num of tree= 1024
+try max number of feature= 30
+5-fold CV No. 1
+rmsle= 0.397547955142
+5-fold CV No. 2
+rmsle= 0.399427926978
+5-fold CV No. 3
+rmsle= 0.396357057314
+5-fold CV No. 4
+rmsle= 0.398098351558
+5-fold CV avg rmsle= 0.318286258198
+best_nt 1024
+best_nf 6
