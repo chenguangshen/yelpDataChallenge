@@ -4,7 +4,7 @@ import pprint
 import pickle
 import numpy
 
-data_path = 'E:\workspace\cs246_data\\'
+data_path = 'data/'
 
 fin1 = open(data_path + 'all_doc_without_uncommon', 'r')
 docs = pickle.load(fin1)
@@ -15,7 +15,7 @@ fin2 = open(data_path + 'unique_terms', 'r')
 unique_terms = pickle.load(fin2)
 fin2.close()
 print len(unique_terms)
-
+# sys.exit(0)
 # fin3 = open(data_path + 'all_doc_without_uncommon_without_empty', 'w')
 # pickle.dump(docs, fin3)
 # fin3.close()

@@ -18,12 +18,12 @@ def rmsle(x, y):
 		print "dimension not equal!"
 		return -1
 
-data_path = '/media/Data/workspace/cs246_data/'
+data_path = 'data/'
 
 
 print datetime.now()
 
-fin1 = open(data_path + 'tf_idf_top_20', 'r')
+fin1 = open(data_path + 'tf_idf_all', 'r')
 tf_idf = pickle.load(fin1)
 fin1.close()
 print len(tf_idf)
@@ -40,29 +40,25 @@ useful_vote = numpy.array(useful_vote)
 # for e in tf_idf:
 # 	print len(e)
 
-sys.exit(0)
-
-kf = cross_validation.KFold(len(tf_idf), n_folds=5)
+#sys.exit(0)
 
 total_rmsle = 0
 count = 0
 
 print datetime.now()
 print "begin to do regression, vote not log scaled, RF with 32 trees, len=", len(tf_idf)
-for train_index, test_index in kf:
-	count = count + 1
-	print "5-fold CV No.",  + count
-	# print("TRAIN:", train_index, "TEST:", test_index)
-	X_train, X_test = tf_idf[train_index], tf_idf[test_index]
-	y_train, y_test = useful_vote[train_index], useful_vote[test_index]
-	clf = RandomForestRegressor(n_estimators=32, max_features=6)
-	clf.fit(X_train, y_train)
-	y_score = clf.predict(X_test)
-	res = rmsle(y_test, y_score)
-	print "rmsle=", res
-	total_rmsle = total_rmsle + res
-#print "finish doing regression"
-score = (total_rmsle / 5.0)
-print "5-fold CV avg rmsle=", score
-
+X_train, X_test = tf_idf[0:220000], tf_idf[220000:]
+y_train, y_test = useful_vote[0:220000], useful_vote[220000:]
+clf = RandomForestRegressor(n_estimators=16, max_features=6, compute_importances=True)
+clf.fit(X_train, y_train)
+y_score = clf.predict(X_test)
+res = rmsle(y_test, y_score)
+print "rmsle=", res
 print datetime.now()
+
+imt = numpy.array(clf.feature_importances_)
+print imt
+
+fin3 = open(data_path + 'var_importance_rf', 'w')
+pickle.dump(imt, fin3)
+fin3.close()
