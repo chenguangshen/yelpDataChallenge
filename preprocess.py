@@ -12,9 +12,9 @@ from nltk.book import FreqDist
 import unicodedata
 
 
-f = open("E:\workspace\Dataset\yelp_phoenix_academic_dataset\yelp_academic_dataset_review.json")
-# f = open("/Users/cgshen/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json")
-
+#f = open("E:\workspace\Dataset\yelp_phoenix_academic_dataset\yelp_academic_dataset_review.json")
+#f = open("/Users/cgshen/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json")
+f = open("/media/Data/workspace/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json")
 
 docs = []
 use_vote = []

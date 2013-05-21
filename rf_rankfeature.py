@@ -18,7 +18,7 @@ def rmsle(x, y):
 		print "dimension not equal!"
 		return -1
 
-data_path = 'E:\workspace\cs246_data\\'
+data_path = '/media/Data/workspace/cs246_data/'
 
 
 print datetime.now()
@@ -39,6 +39,8 @@ useful_vote = numpy.array(useful_vote)
 # print len(tf_idf)
 # for e in tf_idf:
 # 	print len(e)
+
+sys.exit(0)
 
 kf = cross_validation.KFold(len(tf_idf), n_folds=5)
 
