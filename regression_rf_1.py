@@ -18,12 +18,12 @@ def rmsle(x, y):
 		print "dimension not equal!"
 		return -1
 
-data_path = 'E:\workspace\cs246_data\\'
+data_path = 'data/'
 
 
 print datetime.now()
 
-fin1 = open(data_path + 'tf_idf_top_20', 'r')
+fin1 = open(data_path + 'all_30_features_ranked_by_rf', 'r')
 tf_idf = pickle.load(fin1)
 fin1.close()
 print len(tf_idf)
@@ -46,14 +46,14 @@ total_rmsle = 0
 count = 0
 
 print datetime.now()
-print "begin to do regression, vote not log scaled, RF with 32 trees, len=", len(tf_idf)
+print "begin to do regression, vote not log scaled, RF with 1024 trees, len=", len(tf_idf)
 for train_index, test_index in kf:
 	count = count + 1
 	print "5-fold CV No.",  + count
 	# print("TRAIN:", train_index, "TEST:", test_index)
 	X_train, X_test = tf_idf[train_index], tf_idf[test_index]
 	y_train, y_test = useful_vote[train_index], useful_vote[test_index]
-	clf = RandomForestRegressor(n_estimators=32, max_features=6)
+	clf = RandomForestRegressor(n_estimators=1024, max_features=6)
 	clf.fit(X_train, y_train)
 	y_score = clf.predict(X_test)
 	res = rmsle(y_test, y_score)

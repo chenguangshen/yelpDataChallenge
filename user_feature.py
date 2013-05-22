@@ -7,9 +7,9 @@ import numpy
 import unicodedata
 from datetime import datetime
 
-data_path = 'E:\workspace\cs246_data\user_features\\'
-f = open("E:\workspace\Dataset\yelp_phoenix_academic_dataset\yelp_academic_dataset_review.json")
-fuser = open("E:\workspace\Dataset\yelp_phoenix_academic_dataset\yelp_academic_dataset_user.json")
+data_path = 'data/user_features/'
+f = open("/media/Data/workspace/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json")
+fuser = open("/media/Data/workspace/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_user.json")
 #f = open("/Users/cgshen/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json")
 #fuser = open("/Users/cgshen/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_user.json")
 
@@ -22,7 +22,6 @@ def normalize(x):
 		if e < min:
 			min = e
 	return [float(w - min) / float(max - min) for w in x]
-
 users = {}
 
 for i in range(43873):
