@@ -7,7 +7,7 @@ import numpy
 data_path = 'data/'
 #data_path = '/Users/cgshen/Dataset/cs246_data/'
 
-fin1 = open(data_path + 'tf_idf_top_20_rf', 'r')
+fin1 = open(data_path + 'tf_idf_top_20_rank', 'r')
 tf_idf_top_20 = pickle.load(fin1)
 fin1.close()
 print len(tf_idf_top_20)
@@ -81,7 +81,7 @@ for i in range(229907):
 	#print t
 	features.append(t)
 
-fout = open(data_path + 'all_30_features_ranked_by_rf', 'w')
+fout = open(data_path + 'all_30_features_ranked_by_dfidf', 'w')
 pickle.dump(features, fout)
 fout.close()
 
