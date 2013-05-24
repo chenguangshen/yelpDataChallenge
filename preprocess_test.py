@@ -20,10 +20,10 @@ def normalize(x):
 			min = e
 	return [float(w - min) / float(max - min) for w in x]
 
-data_path = "E:\workspace\cs246_data\\"
-f = open("E:\workspace\Dataset\yelp_kaggle\yelp_test_set\yelp_test_set_review.json")
+data_path = "data/"
+f = open("/media/Data/workspace/Dataset/yelp_kaggle/yelp_test_set/yelp_test_set_review.json")
 #f = open("/Users/cgshen/Dataset/yelp_test_set/yelp_test_set_review.json")
-fuser = open("E:\workspace\Dataset\yelp_phoenix_academic_dataset\yelp_academic_dataset_user.json")
+fuser = open("/media/Data/workspace/Dataset/yelp_phoenix_academic_dataset/yelp_academic_dataset_user.json")
 
 fi1 = open(data_path + 'unique_terms', 'r')
 unique_terms = pickle.load(fi1)
@@ -44,7 +44,7 @@ docs = []
 rates = []
 dates = []
 lens = []
-today = datetime.strptime('2013-05-06', "%Y-%m-%d")
+today = datetime.strptime('2013-05-21', "%Y-%m-%d")
 punctuation = re.compile(r'[-.?!,`"$\':;()|0-9]')
 avg_rates = []
 total_reviews = []
@@ -95,7 +95,7 @@ f.close()
 print "Prepared ", len(docs), " documents..."
 print len(docs[0])
 
-fin2 = open(data_path + 'test_review_after_preprocess', 'w')
+fin2 = open(data_path + 'kaggle_test/test_review_after_preprocess', 'w')
 pickle.dump(docs, fin2)
 fin2.close()
 
@@ -123,8 +123,13 @@ for f in docs:
 		vectors.append(numpy.array(TFIDF(f)))
 print "Vectors created."
 
-sorted_index = [209, 102, 42, 356, 263, 194, 75, 81, 375, 364,
- 353, 314, 96, 216, 26, 56, 289, 174, 197, 378]
+#ranked by tfidf
+#sorted_index = [209, 102, 42, 356, 263, 194, 75, 81, 375, 364,
+# 353, 314, 96, 216, 26, 56, 289, 174, 197, 378]
+
+# rankded by rf
+sorted_index = [61, 361, 281, 243,  357, 180, 363, 327, 160, 86,
+ 321, 280, 224, 62, 271, 309, 347, 44, 95, 193]
 
 vectors = [[e[i] for i in sorted_index] for e in vectors]
 
@@ -156,6 +161,6 @@ for i in range(22956):
 	#print t
 	features.append(t)
 
-fout = open(data_path + 'test_set_all_30_features', 'w')
+fout = open(data_path + 'kaggle_test/test_set_all_30_features_ranked_by_rf', 'w')
 pickle.dump(features, fout)
 fout.close()

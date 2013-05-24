@@ -78,9 +78,11 @@ for i in range(229907):
 	t.append(user_total_useful[i])
 	t.append(user_total_cool[i])
 	t.append(user_total_funny[i])
-	print len(t)
+#	print len(t)
 	features.append(t)
 
+print len(features)
+print len(features[0])
 fout = open(data_path + 'all_395_features', 'w')
 pickle.dump(features, fout)
 fout.close()

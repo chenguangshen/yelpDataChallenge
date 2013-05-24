@@ -22,8 +22,8 @@ data_path = 'data/'
 
 
 print datetime.now()
-
-fin1 = open(data_path + 'all_30_features_ranked_by_dfidf', 'r')
+print "feature ranked by lasso"
+fin1 = open(data_path + 'all_30_features_ranked_by_lasso', 'r')
 tf_idf = pickle.load(fin1)
 fin1.close()
 print len(tf_idf)
@@ -47,7 +47,7 @@ count = 0
 
 print datetime.now()
 print "begin to do regression, vote not log scaled, RF with 1024 trees, len=", len(tf_idf)
-print "features ranked by tfidf!!"
+print "features ranked by lasso"
 for train_index, test_index in kf:
 	count = count + 1
 	print "5-fold CV No.",  + count

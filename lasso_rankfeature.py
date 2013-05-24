@@ -37,7 +37,7 @@ X = tf_idf
 y = useful_vote
                 
 # Create the RFE object and rank each pixel
-lasso = linear_model.Lasso(alpha=0.1)
+lasso = linear_model.Lasso(alpha=0.00001)
 rfe = RFE(estimator=lasso, n_features_to_select=20, step=0.05)
 rfe.fit(X, y)
 ranking = rfe.ranking_

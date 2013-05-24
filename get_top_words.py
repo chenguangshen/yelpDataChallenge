@@ -25,8 +25,30 @@ print "No. of unique terms: ", len(unique_terms)
 
 
 # sort using random forest's variable importance
-sorted_index = [61, 361, 281, 243,  357, 180, 363, 327, 160, 86,
- 321, 280, 224, 62, 271, 309, 347, 44, 95, 193]
+#sorted_index = [61, 361, 281, 243,  357, 180, 363, 327, 160, 86,
+# 321, 280, 224, 62, 271, 309, 347, 44, 95, 193]
+
+# sort using lasso
+sorted_index = [2,
+ 34,
+ 37,
+ 75,
+ 119,
+ 121,
+ 123,
+ 135,
+ 157,
+ 191,
+ 210,
+ 216,
+ 246,
+ 263,
+ 276,
+ 316,
+ 349,
+ 353,
+ 356,
+ 379]
 
 words = [unique_terms[i] for i in sorted_index]
 
@@ -39,3 +61,8 @@ pprint.pprint(words)
 # ['appet',  'wish', 'sushi', 'husband', 'spici', 'especi', 'problem',
 #  'often', 'waitress', 'disappoint', 'server', 'almost', 'absolut', 'impress',
 #  'beer', 'els', 'custom', 'famili', 'salsa', 'breakfast']
+
+# lasso l1 based feature selection
+#['decid',  'let',  'great',  'share',  'good',  'food',  'ye',  'mean',
+# 'place', 'tabl', 'm', 'fact', 'see', 'arriv', 'servic', 'know', 'includ',
+# 'head', 'bite', 'yelp']
