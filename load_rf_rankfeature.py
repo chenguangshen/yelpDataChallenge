@@ -1,7 +1,7 @@
 import pickle
 import pprint
 
-fi111 = open('data/var_importance_rf', 'r')
+fi111 = open('data/var_importance_lasso', 'r')
 var = pickle.load(fi111)
 fi111.close()
 
