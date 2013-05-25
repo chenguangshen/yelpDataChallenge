@@ -6,11 +6,11 @@ import numpy
 from sklearn.ensemble import RandomForestRegressor
 from datetime import datetime
 
-data_path = 'E:\workspace\cs246_data\\'
+data_path = 'data/'
 
 print datetime.now()
 
-fin1 = open(data_path + 'all_30_features', 'r')
+fin1 = open(data_path + 'all_30_features_ranked_by_rf', 'r')
 tf_idf = pickle.load(fin1)
 fin1.close()
 print len(tf_idf)
@@ -32,7 +32,7 @@ print "after training"
 
 print datetime.now()
 print "loading test samples"
-fin3 = open(data_path + 'test_set_all_30_features', 'r')
+fin3 = open(data_path + 'kaggle_test/test_set_all_30_features_ranked_by_rf', 'r')
 test = pickle.load(fin3)
 fin3.close()
 print len(test)
@@ -44,6 +44,6 @@ y_pred = clf.predict(test)
 print "finish testing"
 print datetime.now()
 
-fout = open(data_path + 'test_result_rf_1024_6', 'w')
+fout = open(data_path + 'kaggle_test/test_result_rf_1024_6_use_rf_ranked_feature', 'w')
 pickle.dump(y_pred, fout)
 fout.close()
