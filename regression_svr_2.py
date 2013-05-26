@@ -22,8 +22,8 @@ data_path = 'data/'
 
 print datetime.now()
 
-print "feature ranked by rf"
-fin1 = open(data_path + 'all_30_features_ranked_by_rf', 'r')
+print "feature ranked by lasso"
+fin1 = open(data_path + 'all_30_features_ranked_by_lasso', 'r')
 tf_idf = pickle.load(fin1)
 fin1.close()
 print len(tf_idf)
