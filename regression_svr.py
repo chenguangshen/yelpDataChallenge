@@ -47,8 +47,8 @@ useful_vote = numpy.array(useful_vote)
 kf = cross_validation.KFold(len(tf_idf), n_folds=5)
 
 # pprint.pprint(tf_idf)
-rad = [0.001,0.005,0.01,0.05,0.1,0.5,1,2]
-deg = [2,3]
+rad = [0.5,1,2]
+deg = [2]
 
 best_score = 10000
 best_kernel = None
@@ -75,6 +75,8 @@ for train_index, test_index in kf:
 	print "rmsle=", res
 	print >>fout,"rmsle=", res
 	total_rmsle = total_rmsle + res
+	if count == 1:
+		break
 print "finish doing regression"
 print >>fout, "finish doing regression"
 score = total_rmsle / 5.0
@@ -107,6 +109,8 @@ for d in deg:
         	print "rmsle=", res
         	print >>fout, "rmsle=", res
         	total_rmsle = total_rmsle + res
+		if count == 1:
+			break;
 	print "finish doing regression"
 	print >>fout, "finish doing regression"
 	score = total_rmsle / 5.0
@@ -139,6 +143,8 @@ for r in rad:
                 print "rmsle=", res
                 print >>fout, "rmsle=", res
                 total_rmsle = total_rmsle + res
+		if count == 1:
+			break;
         print "finish doing regression"
         print >>fout, "finish doing regression"
         score = total_rmsle / 5.0
